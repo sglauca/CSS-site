@@ -1,0 +1,112 @@
+body {
+    background-color: antiquewhite;
+    color: #40514e;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 5em;                     /*we shouldnot use hard-coded size, instead we use dynamic method and note that 100% = 16px = 1em */
+    margin: 50px auto 0 auto; 
+    color: #66bfbf; 
+    line-height: 2;                    
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+}
+
+a {
+    color: #11999e;
+}
+
+hr {
+    background-color: rgb(251, 183, 158);
+    margin-top: 3em;
+    width: 20%;
+    height: 3px;
+}
+
+
+.top-container {
+    background-color: #eaf6f6;
+    display: block;
+    padding-top: 50px;
+}
+
+.mid-container {
+    display: block;
+}
+
+.bottom-container {
+    background-color: #eaf6f6;
+    display: block;
+    height: 8em;
+    padding-top: 2.5em;
+}
+
+.top-cloud {
+    position: relative;
+    left: 30em;
+    top: 15px;
+}
+
+.bottom-cloud {
+    position: relative;
+    left: -8em;
+    top: -20em;
+}
+
+.profile {
+    margin-top: 50px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.learn-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.giphy-embed {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
