@@ -1,3 +1,4 @@
+
 body {
     background-color: antiquewhite;
     color: #40514e;
@@ -41,6 +42,7 @@ hr {
     background-color: #eaf6f6;
     display: block;
     padding-top: 50px;
+    width: 100%;
 }
 
 .mid-container {
@@ -51,6 +53,7 @@ hr {
     background-color: #eaf6f6;
     display: block;
     height: 8em;
+    width: 100%;
     padding-top: 2.5em;
 }
 
